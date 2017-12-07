@@ -15,7 +15,7 @@ function onClickCargaTxt () {
 	
 	//lograr que los tots y keywords aparezcan en el dom
 	toti = $(this).data('toti');
-	document.getElementById('.totalvisi').innerHTML = toti;
+	$('.totalvisi').html(toti);
 
 	totd = $(this).data('totd');
 	document.getElementById('.totalvisd').innerHTML = totd;
@@ -58,13 +58,13 @@ function onClickReset () {
 function onClickSubPerc () {
 	averageI -= 0.01;
 	console.log(averageI);
-	document.getElementById('contenidosi').style.wordSpacing -= '0.2';
+	$('.contenidosi').css('word-spacing', '-=0.2');
 }
 
 function onClickAddPerc () {
 	averageI+=0.01;	
 	console.log(averageD);
-	document.getElementById('contenidosd').style.wordSpacing += '0.2';
+	$('.contenidosd').css('word-spacing', '+=0.2');
 }
 
 $(document).ready(function () {
