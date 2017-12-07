@@ -1,0 +1,297 @@
+ body {
+  width: 100%;
+  margin: 0;
+  background-color: #959595;
+}
+
+#bg{
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: -100;
+}
+
+img{
+	max-width: 100%; 
+	height: auto;
+}
+
+.portada{
+	
+	position: absolute;
+	height: 800px;
+}
+
+.intro{
+	white-space: pre-wrap;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 17%;
+
+	
+}
+
+.bullet{
+	margin-top: 60%;
+	white-space: pre-wrap;
+	font-family: "Cardo";
+	font-size: 40px;
+	line-height: 120%;
+	text-align: justify;
+	margin-left: 17%;
+}
+
+.underline--magical{
+ color: white;
+ background-color: black !important;
+  background-repeat: no-repeat;
+    background-size: 100% 120%;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+
+
+.underline--magical--r{
+ color: black;
+ background-color: white;
+  background-repeat: no-repeat;
+    background-size: 100% 120%;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+
+.contenidosi{
+	overflow: scroll;
+	font-family: "Open Sans", sans-serif;
+	text-align: justify;
+	white-space: pre-wrap;
+	background-color: white;
+	color: black;
+	height:400px;
+	word-spacing: ;
+}
+
+.contenidosd{
+	overflow: scroll;
+	font-family: "Open Sans", sans-serif;
+	text-align: justify;
+	white-space: pre-wrap;
+	background-color: black;
+	color: white;
+	height:400px;
+	word-spacing: ;
+}
+
+.visi{
+
+	font-family: "Open Sans", sans-serif;
+	text-align: justify;
+	background-color: white;
+	color: black;
+	height:100px;
+}
+
+.visd{
+
+	font-family: "Open Sans", sans-serif;
+	text-align: justify;
+	background-color: black;
+	color: white;
+	height:100px;
+}
+
+.conclusiones{
+	white-space: pre-wrap;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 17%;
+}
+
+
+.titulotext {
+	font-size: 22px;
+	font-family: "Cardo";
+
+}
+
+.cargatxt{
+	background-color: white;
+	color:black;
+	border: 1px solid black;
+}
+
+.cargaunderlines{
+	background-color: white;
+	color:black;
+	width:95px;
+	border: 1px solid black;
+}
+
+.reset{
+	font-size:10.2px;
+	background-color: white;
+	color:black;
+width:95px;
+	border: 1px solid black;
+}
+
+
+
+button:focus{background-color: #646464;}
+
+.titles{
+	position:relative;
+	margin-left: 12%;
+	margin-top: 12%;
+}
+
+
+
+h2{
+	font-size:80px;
+	width: 70%;
+	letter-spacing: 4px;
+	font-family: "Open Sans";
+	font-weight: 700;
+	color: white;
+	position: relative;
+}
+
+h3{
+	font-size:18px;
+	top:20px;
+	letter-spacing: 0px;
+	line-height: 160%;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: white;
+	width: 65%;
+	position: relative;
+}
+
+h4{
+	font-size:24px;
+	top:10px;
+	letter-spacing: 1px;
+	font-family: "Cardo";
+	color: white;
+}
+
+h5{
+	font-size:24px;
+	top:10px;
+	letter-spacing: 1px;
+	font-family: "Cardo";
+	color: black;
+}
+
+.speechesi{
+	font-size:40px;
+	text-align: center;
+	margin-bottom: 1%;
+	letter-spacing: 1px;
+	font-family: "Cardo";
+	color: black;
+	background-color: white;
+}
+
+.speechesd{
+	font-size:40px;
+	text-align: center;
+	margin-bottom: 1%;
+	letter-spacing: 1px;
+	background-color: black;
+	font-family: "Cardo";
+	color: white;
+}
+
+.navtot{
+	background-color: grey;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	}
+	
+.navkeywords{
+	text-align: center;
+	background-color: #8b8b8b;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.navresets{
+	background-color: #8b8b8b;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.totali, .keywordsi, .promedioi{
+	padding-top: 2%;
+	font-size: 12px;
+	font-family: "Open Sans";
+	height:40px;
+	text-align: center;
+}
+
+
+.totald, .keywordsd, .promediod{
+	padding-top: 2%;
+	font-size: 12px;
+	font-family: "Open Sans";
+	color: white;
+	height:40px;
+	text-align: center;
+}
+
+.totalvisi, .keywordsvisi, .promediovisi, .botonresta{
+	padding-top: 2%;
+	font-size: 40px;
+	font-family: "Open Sans";
+	height:50px;
+	text-align: center;
+}
+
+.totalvisd, .keywordsvisd, .promediovisd, .botonsuma{
+	padding-top: 2%;
+	font-size: 12px;
+	font-family: "Open Sans";
+	color: white;
+	height:40px;
+	text-align: center;
+}
+
+.botonesrestasuma{
+	text-align: center;
+}
+
+.subPerc{
+	font-size: 20px;
+	width:50px;
+	background-color: white;
+	color:black;
+	border: 0px solid black;
+}
+
+.addPerc{
+	font-size: 20px;
+	width:50px;
+	background-color: black;
+	color:white;
+	border: 0px solid white;
+}
+
+
+
+
+footer{
+	background-color: black;
+	 margin: 0;
+	height: 170px;
+}
+
